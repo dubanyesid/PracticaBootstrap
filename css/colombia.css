@@ -1,0 +1,19 @@
+body{
+    background-image: url("../img/fondo.jpg"); 
+    
+    margin: 22px;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    color: antiquewhite;
+   
+}
+body ::before {
+    position: absolute;
+    opacity: 0.6;
+
+   
+  }
